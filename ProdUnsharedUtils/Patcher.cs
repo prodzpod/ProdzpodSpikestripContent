@@ -32,7 +32,7 @@ public static class Patcher
                     UseShellExecute = false,
                     FileName = Path.Combine(sdname, "xdelta.exe"),
                     WindowStyle = ProcessWindowStyle.Hidden,
-                    Arguments = $"-f -d -s {Path.Combine(dname, fname)} {Path.Combine(sdname, fname + ".xdelta")} {Path.Combine(dname, "patched_" + fname)}"
+                    Arguments = $"-f -d -s \"{Path.Combine(dname, fname)}\" \"{Path.Combine(sdname, fname + ".xdelta")}\" \"{Path.Combine(dname, "patched_" + fname)}\""
                 };
                 try
                 {

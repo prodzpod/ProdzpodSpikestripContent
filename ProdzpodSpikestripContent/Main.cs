@@ -1,12 +1,6 @@
 ﻿using BepInEx;
 using BepInEx.Logging;
-using System;
-using System.Collections.Generic;
-using MonoMod.Cil;
 using HarmonyLib;
-using System.Reflection;
-using System.IO;
-using System.Linq;
 
 namespace ProdzpodSpikestripContent
 {
@@ -16,7 +10,7 @@ namespace ProdzpodSpikestripContent
         public const string PluginGUID = PluginAuthor + "." + PluginName;
         public const string PluginAuthor = "_com.prodzpod";
         public const string PluginName = "ProdzpodSpikestripContent";
-        public const string PluginVersion = "1.0.0";
+        public const string PluginVersion = "1.0.2";
         public static ManualLogSource Log;
         public static Harmony Harmony;
         public static PluginInfo pluginInfo;

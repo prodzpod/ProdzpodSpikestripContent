@@ -4,5 +4,6 @@
 *.zip
 /*/libs/
 /.vs/
+_from
 raw
 xdeltaUI
